@@ -1,0 +1,36 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package testcode;
+
+/**
+ *
+ * @author reeca
+ */
+import java.io.File;
+public class delFile
+{
+   public static void main(String l[])
+   {
+       try{
+       File file = new File("C:/Users/reeca/OneDrive/Desktop/noob.txt");
+       boolean del = file.delete();
+       
+       if(del)
+       {
+           System.out.print("file is deleted!");
+       }
+       else
+       {
+             System.out.print("file is not deleted!");
+       }
+       }
+       catch(Exception e)
+       {
+           
+       }
+       
+       
+   }
+}
