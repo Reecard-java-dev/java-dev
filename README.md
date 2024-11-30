@@ -1,1 +1,1 @@
-This is a java repository which helps programmers with source code
+This is a java repository thats provides programmers with source code
